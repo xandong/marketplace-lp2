@@ -1,3 +1,3 @@
 export default function createClient() {
-  return console.log("Create client");
+  return "Create client";
 }

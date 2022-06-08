@@ -1,3 +1,3 @@
 export function updateSeller() {
-  return console.log("Update seller");
+  return "Update seller";
 }
