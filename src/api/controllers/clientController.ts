@@ -22,8 +22,7 @@ export function clientController() {
   }
 
   function getAll() {
-    if (checkByID()) return getClients();
-    return "User not found";
+    return getClients();
   }
 
   function getByID() {

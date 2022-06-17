@@ -22,8 +22,7 @@ export function productController() {
   }
 
   function getAll() {
-    if (checkByID()) return getProducts();
-    return "Products not found";
+    return getProducts();
   }
 
   function getByID() {
